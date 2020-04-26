@@ -4,7 +4,11 @@ import {albumcovers} from '../../albumcovers';
 
 class Blurb extends React.Component {
     render() {
-        return <div></div>;
+    return (
+        <div className="Blurb">
+            <p>{albumcovers[this.props.i].blurb}</p>
+        </div>
+    );
     }
 }
 

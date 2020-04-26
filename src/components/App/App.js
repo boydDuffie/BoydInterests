@@ -10,7 +10,7 @@ class App extends React.Component {
     let i=Math.floor(Math.random()*(albumcovers.length-1));
 
     return (
-      <div>
+      <div className="App">
         <Album idx={i}/>
         <Blurb idx={i}/>
       </div>
