@@ -6,7 +6,7 @@ class Blurb extends React.Component {
     render() {
     return (
         <div className="Blurb">
-            <p>{albumcovers[this.props.i].blurb}</p>
+            <p>{albumcovers[this.props.idx].blurb}</p>
         </div>
     );
     }

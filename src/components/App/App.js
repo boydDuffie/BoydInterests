@@ -11,6 +11,7 @@ class App extends React.Component {
 
     return (
       <div className="App">
+        <NavBar />
         <Album idx={i}/>
         <Blurb idx={i}/>
       </div>
