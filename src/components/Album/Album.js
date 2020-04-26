@@ -2,7 +2,7 @@ import React from 'react';
 import './Album.css';
 import {albumcovers} from '../../albumcovers';
 
-class Picture extends React.Component {
+class Album extends React.Component {
     render() {
         return(
             <div className="Album">
@@ -17,4 +17,4 @@ class Picture extends React.Component {
     }
 }
 
-export default Picture;
+export default Album;

@@ -6,6 +6,7 @@ import './NavBar.css';
 //it might be better to have the rendered content vary based on what is selected in the navbar.
 //the base index.html page will be static, but the content ontop is going to be dynamic.
 
+//NavBar component will be styled based on the current image being displayed
 class NavBar extends React.Component {
     render() {
         return <div></div>;
