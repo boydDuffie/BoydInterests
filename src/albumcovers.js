@@ -1,3 +1,10 @@
+/*
+    "name" will represent the name of the file, which is essentially the name of the album, without spaces.
+    "blurb" will hold some of my personal thoughts on each album cover, why I like it and what it means to me.
+    "words" will be an array of words which I associate with the image in my mind.
+    future additions may include color palettes (primary, secondary, tertiary) and links to listen to the album.
+ */
+
 export const albumcovers = [
     {
         "name": "10,000Days",
