@@ -1,11 +1,11 @@
 import React from 'react';
 import './App.css';
-import Picture from '../Picture/Picture';
+import Album from '../Album/Album';
 
 class App extends React.Component {
   render() {
     return (
-      <Picture />
+      <Album />
     );
   }
 }
