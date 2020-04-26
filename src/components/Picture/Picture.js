@@ -6,7 +6,10 @@ import './Picture.css';
 
 class Picture extends React.Component {
     render() {
-        return;
+        //placeholder image file
+        return(
+            <img src="../../../public/albums/Baraka.png" alt="Baraka"></img>
+        );
     }
 }
 
